@@ -102,9 +102,7 @@ Tasks are stored in JSON format:
 
 ---
 
-## 👥 Authors
 
-* Aggoun Nassima
-* Mazzi Rayene Chorouk
+
 
 
