@@ -1,1 +1,110 @@
-{"nbformat":4,"nbformat_minor":0,"metadata":{"colab":{"provenance":[],"authorship_tag":"ABX9TyMtijAj+cR6bvbDNpRWgpHc"},"kernelspec":{"name":"python3","display_name":"Python 3"},"language_info":{"name":"python"}},"cells":[{"cell_type":"markdown","source":["## Simple Task List – Mini Project\n","Authors: Aggoun Nassima, Mazzi Rayene Chorouk\n","## University\n","University of Mohamed Kheider – Biskra  \n","Course: Programming  \n","Level: PhD Students  \n","Academic Year: 2025/2026  \n","\n","## Project Description\n","This project is a simple command-line Task Manager that allows students\n","to manage homework and study tasks. Tasks are stored persistently in a\n","JSON file without using a database.\n","\n","## Features\n","- Add a new task\n","- View all tasks\n","- Mark a task as done\n","- Save tasks to a JSON file\n","- Load tasks from a JSON file\n","- Prevent duplicate tasks\n","- Handle basic input errors\n","\n","## Technologies Used\n","- Python 3\n","- JSON file for persistence\n","\n","## Files\n","- `tasks.py` : Main Python program\n","- `tasks.json` : Task storage file\n","- `README.md` : Project documentation\n","\n","## How to Run\n","1. Make sure Python 3 is installed\n","2. Open a terminal in the project folder\n","3. Run the program:\n","   ```bash\n","   python tasks.py"],"metadata":{"id":"WIFld7bfg6qQ"}}]}
+# 📋 Command Line Task Manager
+
+A simple Python command-line application that allows users to manage daily tasks.
+
+The program stores tasks in a JSON file and allows adding, viewing, and updating task status directly from the terminal.
+
+---
+
+## 👥 Authors
+
+* Aggoun Nassima
+* Mazzi Rayene Chorouk
+
+## 🎓 Academic Information
+
+**University of Mohamed Kheider – Biskra**
+**Course:** Programming
+**Level:** PhD Students
+**Academic Year:** 2025/2026
+
+---
+
+## ✨ Features
+
+* ➕ Add a new task
+* 📄 View all tasks
+* ✔ Mark a task as completed
+* 💾 Automatic save to `tasks.json`
+* 🔄 Load tasks when program starts
+* ⚠ Error handling for invalid input
+
+---
+
+## 🧰 Requirements
+
+* 🐍 Python 3.x
+* 📦 No external libraries required
+
+---
+
+## ▶ How to Run
+
+Open a terminal inside the project folder and run:
+
+```bash
+python tasks.py
+```
+
+---
+
+## 📌 Menu Options
+
+1️⃣ Add task
+2️⃣ View tasks
+3️⃣ Mark task as done
+4️⃣ Exit
+
+---
+
+## 🗂 File Structure
+
+```
+task_manager/
+│
+├── tasks.py        # Main program
+├── tasks.json      # Task storage
+└── README.md       # Documentation
+```
+
+---
+
+## 🖥 Example Output
+
+```
+--- Task Manager ---
+1. Add task
+2. View tasks
+3. Mark task as done
+4. Exit
+```
+
+---
+
+## 🧾 Data Storage Format
+
+Tasks are stored in JSON format:
+
+```json
+{
+    "title": "Finish assignment",
+    "done": false
+}
+```
+
+---
+
+## 📝 Notes
+
+* The program automatically creates the task list if it does not exist
+* Invalid inputs are handled safely
+* The application runs entirely in the terminal
+
+---
+
+## 👥 Authors
+
+* Aggoun Nassima
+* Mazzi Rayene Chorouk
+
+
